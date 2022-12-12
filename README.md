@@ -12,3 +12,6 @@ In this project we will first try to replicate, and then improve upon, research 
 It is worth noting that in his algorithm, Delaney uses 2874 molecules for training, however his supporting information only provides us with 1128.
 
 Finally, I would like to thank Prof. Jan H. Jensen [2] for the idea for this notebook and for his excellent tutorials on the use of machine learning within chemistry.
+
+1. [ESOL: Estimating Aqueous Solubility Directly from Molecular Structure](https://pubs.acs.org/doi/10.1021/ci034243x), J. S. Delany, J. Chem. Inf. Comput. Sci. 2004, **44**, 1000-1005
+2. [Machine Learning Basics by Jan H. Jensen](https://sites.google.com/view/ml-basics/home?authuser=0)
