@@ -1,0 +1,14 @@
+# Predicting-Aqueous-Solubilities
+
+Cheminformatics is an exciting field that combines Chemistry with Informatics by collecting, storing, analysing and manipulating chemical data. Cheminformatics original
+ly emerged to aid and inform drug discovery, however it has now grown to involve important areas of biology, chemistry and biochemistry, with many similarities to the 
+field of bioinformatics. Aqueous solubility is one of the key physical properties of interest to a medicinal chemist as it affects the uptake/distribution of 
+biologically active compounds within the body.
+
+In this project we will first try to replicate, and then improve upon, research by John S. Delaney [1], who used linear regression to predict the aqueous solubility 
+(ESOL) of a range of molecules. Delaney demonstrates that you can predict the solubility to a reasonable accuracy using 4 easily observable parameters: molecular weight
+, number of rotatable bonds, aromatic proportion and the octane-water partition coefficient.
+
+It is worth noting that in his algorithm, Delaney uses 2874 molecules for training, however his supporting information only provides us with 1128.
+
+Finally, I would like to thank Prof. Jan H. Jensen [2] for the idea for this notebook and for his excellent tutorials on the use of machine learning within chemistry.
