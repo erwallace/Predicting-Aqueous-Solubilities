@@ -129,18 +129,10 @@ def plot_loss(L):
     --------
     None
     '''
+    plt_start = int(len(L)/10)
 
-    fig, ax = plt.subplots(ncols=2, figsize=(20, 5))
-
-    ax1 = ax[0]
-    ax1.plot(list(range(len(L))), L)
-    ax1.set_xlabel('Number of Epochs')
-    ax1.set_ylabel('Loss - Mean Squared Error')
-
-    ax2 = ax[1]
-    ax2.plot(list(range(len(L))), L)
-    ax2.set_xlabel('Number of Epochs')
-    ax2.set_ylabel('Loss - Mean Squared Error')
-    ax2.set_yscale('log')
+    plt.plot(list(range(plt_start, len(L))), L[plt_start:])
+    plt.xlabel('Number of Epochs')
+    plt.ylabel('Loss - Mean Squared Error')
 
     plt.show()
